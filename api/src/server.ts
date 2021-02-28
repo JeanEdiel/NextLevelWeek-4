@@ -1,24 +1,7 @@
-import express from 'express';
+import { app } from "./app";
 
-const app = express();
+const port = process.env.PORT || 3333;
 
-
-app.listen(3333, () => {
-    console.log('server is running');
+app.listen(port, () => {
+    console.log('server is running in port 3333');
 });
-
-app.get('/', (request, response) => {
-    return response.json({ message: 'Hello World' });
-});
-
-app.post('/', (request, response) => {
-    return response.json({ message: 'Os dados foram salvos com sucesso!' });
-});
-
-/**
- * GET => Busca
- * POST => Salvar
- * PUT => Alterar
- * DELETE => Deletar
- * PATCH => Alteração específica
- */
