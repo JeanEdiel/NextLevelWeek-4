@@ -9,7 +9,7 @@
 
 ## 📄 Sobre
 
-O projeto NextLevelWeek-4 foi criado na semana do quarto evento Next Level Week da **Rocketseat**.
+O projeto NextLevelWeek-4 foi desenvolvido na semana Next Level Week (NLW) **Rocketseat**, que ocorreu durante os dias 22/02/2021 à 27/02/2021.
 
 ---
 
